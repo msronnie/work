@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    padding: 5px;
+    border: 1px solid linear-gradient(to right,#fdc50c, #f6a21e);
+    padding: 5px;
+    background: linear-gradient(to right, #fdc50c, #f6a21e);
+    ;
+}
+label{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+label,
+p , span, button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#department-details {
+    margin-bottom: 20px;
+}
+.input-fields{
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+.input-fields,.upload-button{
+    padding: 5px;
+    width: 25%;
+    margin-right: 20px;
+}
+label, .input-fields{
+    margin-bottom: 20px;
+}
+.othernames-label{
+    margin-left: 30px;
+}
+#staff-status, #status1, #status2, #status3, #status4, #status5{
+margin-top: 20px;
+    margin-bottom: 35px;
+}
+#expiring-date, .date-dept, .approval-dates{
+    font-size: 1rem; 
+}
+.upload-button{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+textarea{
+    width: 25%;
+    height: 10%;
+    margin-bottom: 20px;
+}
+.checkboxes{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+#mandate-access,#mandate1,#mandate2,#mandate3{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.button-wrapper{
+    text-align: center;
+}
+table{
+    width: 500px;
+    text-align: center ;
+   
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.button{
+      background: #fdc50c;
+      border-color: #fdc50c;
+      font-size: larger;
+      width: 400px;
+      margin-top: 20px;
+  
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #f6a21e;
+}
